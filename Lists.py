@@ -3,7 +3,7 @@ foods = ["burger", "pizza", "steak"]
 
 drinks = ["soda", "juice", "tea", "milk tea", "coffee"]
 
-numbers = [5, 11, 14, 21, 42, 23, 5]
+numbers = [5, 11, 14, 5, 21, 42, 23]
 
 # any data type can be put into an array, and to make an array we use []
 
@@ -54,11 +54,15 @@ print(numbers)
 print(numbers.count(5))
 # check how many of an element there is in a list
 
-print(foods.sort())
+foods.sort()
 # sorts a list in alphabetical order
 
-print(foods.reverse())
+print(foods)
+
+foods.reverse()
 # reverses order of a list
+
+print(foods)
 
 num = numbers.copy()
 # copies a list
